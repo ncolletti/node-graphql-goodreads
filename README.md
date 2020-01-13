@@ -26,7 +26,7 @@ npm start
 
 Enter different GraphQL queries with author ID #'s to ping Goodreads API and grab their list of books
 
-''''
+```
 query {
   author(id: 4339) {
     name,
@@ -37,4 +37,12 @@ query {
     }
   }
 }
-''''
+```
+OR
+```
+query {
+  book(id: 20170404) {
+    name
+ }
+}
+```
